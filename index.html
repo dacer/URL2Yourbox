@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>URL2Yourbox</title>
+	<meta charset="UTF-8" />
+	<meta name="description" content="Put file to your dropbox online.">
+	<meta name="author" content="Dacer" />
+	<link rel="stylesheet" href="index.css" type="text/css"/>
+</head>
+<body>
+	<div id="Wrapper">
+		<div class="sep10"></div>
+		<div id="main-title">URL2YourBox</div>
+		<div id="Main">
+
+			<p>
+				<div class="title">File URL:</div>
+				<input type="text" id="url" placeholder="http://example.com/a.jpg"></p>
+			<p>
+				<div class="title">File Name(optional):</div>
+				<input type="text" id="file-name" placeholder="example.jpg"></p>
+			<br>
+			<div id="download-button">
+				<a href="javascript:void(0)" onclick="onClickDownload()" class="download-button">Download to Dropbox</a>
+			</div>
+
+		</div>
+
+	</div>
+	<div id="footer">
+		© 2013 Dacer — All Rights Reserved.
+		<p>
+			<a class="bottom-link" href="https://github.com/dacer" target="_blank">Github</a>
+			<a class="bottom-link" href="#" target="_blank">Blog</a>
+		</p>
+	</div>
+
+	<!-- process -->
+	<div id="light" class="white_content">
+		
+	</div>
+	<div id="fade" class="black_overlay" style="display:none"></div>
+
+
+
+<script type="text/javascript" src="https://www.dropbox.com/static/api/1/dropins.js" id="dropboxjs" data-app-key="192navoow3zi7oi"></script>
+
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
